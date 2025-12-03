@@ -1,44 +1,44 @@
 1. Başlangıç (main metodu başlar)
   Kod: System.out.print("No, I ");
-  Çıktı: No, I
+  çıktı: No, I
 
 
 2. zoop() çağrısı (main içinden)
   Kod: zoop();
-  Çıktı: (Değişmedi)
+  çıktı: (Değişmedi)
 
 
 3. İlk baffle() çağrısı (zoop içinden)
   Kod: baffle(); (Şimdi baffle çalışmaya başlar.)
-  Çıktı: No, I wug (baffle içindeki System.out.print("wug"); çalıştı.)
+  çıktı: No, I wug (baffle içindeki System.out.print("wug"); çalıştı.)
 
 
 4. ping() çağrısı (baffle içinden)
   Kod: ping();
-  Çıktı: No, I wug. (ping içindeki System.out.println("."); çalıştı ve yeni satıra geçti.)
+  çıktı: No, I wug. (ping içindeki System.out.println("."); çalıştı ve yeni satıra geçti.)
 
 
 5. ping() ve İlk baffle() Tamamlanır (Pop)
   ping() metodu biter, çerçevesi yığından atılır.
   baffle() metodu biter, çerçevesi yığından atılır. Kontrol zoop'a geri döner.
-  Çıktı: (Değişmedi)
+  çıktı: (Değişmedi)
 
 
 6. zoop() Devam EdiyorKod
-   System.out.print("You wugga ");
-   Çıktı: No, I wug.
+  System.out.print("You wugga ");
+  çıktı: No, I wug.
           You wugga 
 
 
 7. İkinci baffle() çağrısı (zoop içinden)
   Kod: baffle(); (Şimdi ikinci kez baffle çalışmaya başlar.)
-  Çıktı: No, I wug.
+  çıktı: No, I wug.
          You wugga wug (baffle içindeki System.out.print("wug"); çalıştı.)
 
 
 8. İkinci ping() çağrısı (baffle içinden)
   Kod: ping();
-  Çıktı: No, I wug.
+  çıktı: No, I wug.
          You wugga wug. (ping içindeki System.out.println("."); çalıştı ve yeni satıra geçti.)
 
 
@@ -46,12 +46,12 @@
   ping() metodu biter, çerçevesi yığından atılır.
   baffle() metodu biter, çerçevesi yığından atılır.
   zoop() metodu biter, çerçevesi yığından atılır. Kontrol main'e geri döner.
-  Çıktı: (Değişmedi)
+  çıktı: (Değişmedi)
 
 
 10. main Devam EdiyorKod
-    System.out.print("I ");
-    Çıktı: No, I wug.
+   System.out.print("I ");
+   çıktı: No, I wug.
            You wugga wug.
            I
 
