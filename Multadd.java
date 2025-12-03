@@ -1,4 +1,3 @@
-package Hafta11;
 
 public class Multadd {
 
@@ -19,3 +18,4 @@ public class Multadd {
         System.out.println(trigo2);
     }
 }
+
